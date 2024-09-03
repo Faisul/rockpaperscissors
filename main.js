@@ -39,7 +39,7 @@ let playGame = function() {
     for(let currentRound = 0;  currentRound < maxRound; currentRound++) {
         playRound(getComputerChoice(), getHumanChoice());
     }
-    console.log("your score is: " +humanScore+"; computer score is: "+ computerScore);
+    alert("your score is: " +humanScore+"; computer score is: "+ computerScore);
 }
 
 playGame();

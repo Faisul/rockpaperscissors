@@ -19,13 +19,13 @@ let getHumanChoice = function() {
 
 let playRound = function(computerChoice, humanChoice ) {
     if (option.indexOf(computerChoice) ==  option.indexOf(humanChoice)){
-        console.log("it's a draw");
+        alert("it's a draw");
     } else if( option.indexOf(computerChoice) ==2 
         && option.indexOf(humanChoice) == 0  || option.indexOf(computerChoice) + 1 == option.indexOf(humanChoice)) {
-        console.log("you won! " + humanChoice +" beats " + computerChoice);
+        alert("you won! " + humanChoice +" beats " + computerChoice);
         humanScore++;
     } else {
-        console.log("you lose! " + computerChoice +" beats " + humanChoice);
+        alert("you lose! " + computerChoice +" beats " + humanChoice);
         computerScore++;
     }
     

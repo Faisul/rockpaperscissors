@@ -1,0 +1,22 @@
+div {
+    flex: grid;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+}
+
+#scissors {
+    background-color: blueviolet;
+    color: white;
+}
+
+#paper {
+    background-color: rgb(230, 220, 220);
+}
+
+#rock {
+    background-color: brown;
+    color: white;
+}
